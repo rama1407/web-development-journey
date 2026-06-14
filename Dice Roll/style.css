@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: darkblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#buttons:hover{
+    background-color: lightblue;
+}
+#label{
+    font-size: 2em;
+    margin-right: 20px;
+}
